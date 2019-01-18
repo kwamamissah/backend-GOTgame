@@ -1,5 +1,6 @@
 class CharactersController < ApplicationController
-  def new
+  def index
+    render json: Character.all
   end
 
   def create
