@@ -15,3 +15,12 @@ Character.destroy_all
     image: Faker::LoremPixel.image("200x200")
   )
 end
+
+10.times do
+  u = User.create(
+    name: Faker::TheFreshPrinceOfBelAir.character,
+    email: Faker::Internet.email,
+    password_digest: Faker::Beer.hop,
+  )
+  Game.create(user_id: u.id, score: rand(100))
+end
