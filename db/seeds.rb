@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Character.destroy_all
+
+10.times do
+  character = Character.create(
+    name: Faker::GameOfThrones.unique.character,
+    alive: true,
+    image: Faker::LoremPixel.image("200x200")
+  )
+end
