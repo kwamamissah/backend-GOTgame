@@ -9,9 +9,10 @@
 Character.destroy_all
 
 10.times do
+  num = rand(0..1)
   character = Character.create(
     name: Faker::GameOfThrones.unique.character,
-    alive: true,
+    alive: (num === 0) ? true : false,
     image: Faker::LoremPixel.image("200x200")
   )
 end
