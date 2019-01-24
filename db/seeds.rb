@@ -78,7 +78,7 @@ Character.create(name: "Tyrion Lannister", alive: true, image: "https://www.tele
 
 Character.create(name: "Tywin Lannister", alive: false, image: "https://www.telegraph.co.uk/content/dam/tv/2016/04/20/Tywin_trans_NvBQzQNjv4BqNJjoeBT78QIaYdkJdEY4CnGTJFJS74MYhNY6w3GNbO8.jpg?imwidth=1240")
 
-Character.create(name: "Oberyn Martell", alive: false, image: "https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjwj66Z2IbgAhXPVN8KHWDbAXAQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F848154542293099477%2F&psig=AOvVaw0KbGVwTwOVYEV87n8RFQM5&ust=1548427749987732")
+Character.create(name: "Oberyn Martell", alive: false, image: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Oberyn_Martell-Pedro_Pascal.jpg/220px-Oberyn_Martell-Pedro_Pascal.jpg")
 
 Character.create(name: "Melisandre", alive: true, image: "https://www.telegraph.co.uk/content/dam/tv/2016/04/25/melisandre_trans_NvBQzQNjv4BqutubNGxeqbD0m2XylzINLiOoem_3qpp9C-iKHR23jxY.jpg?imwidth=1240")
 
